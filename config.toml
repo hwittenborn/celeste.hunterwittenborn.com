@@ -1,0 +1,10 @@
+baseURL = 'https://celeste.hunterwittenborn.com/'
+languageCode = 'en-us'
+title = 'Celeste'
+theme = "PaperMod"
+
+[params.assets]
+favicon = "https://raw.githubusercontent.com/hwittenborn/celeste/main/assets/com.hunterwittenborn.Celeste-regular.svg"
+
+[markup.goldmark.renderer]
+unsafe = true

@@ -1,5 +1,7 @@
 ## Privacy Policy
 This page describes the data that Celeste collects.
 
-### Storage Provider Logins
-When you log in to a cloud provider such as Google Drive, Dropbox, or OneDrive, Celeste obtains a login token from the provider, and stores it locally on your machine. It uses this information to send and retreive files between the cloud provider and your local machine.
+### Usage of Cloud User Data
+Celeste provides the end user with access to files on their cloud storage system (such as Google Drive or Dropbox, though other types are also included) through authentication credentials obtained via user interaction. Files are then obtained from the cloud storage system via their publicly exposed API, specifically via [rclone](https://rclone.org). Celeste doesn't share this data with any third parties in any scenario.
+
+Celeste's functionality with syncing to cloud storage systems solely uses [rclone](https://rclone.org). Please see [rclone's privacy policy](https://rclone.org/privacy/#use-of-cloud-api-user-data) for a full list of information that's collected.
